@@ -15,3 +15,6 @@ function reset(){
 function updateDisplay(){
     document.getElementById("counter").innerText = count;
 }
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
